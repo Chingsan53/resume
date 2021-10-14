@@ -1,0 +1,152 @@
+
+html, body {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    color: #132231;
+}
+
+
+/* Top part */
+.container {
+    height: 297mm;
+    width: 210mm;
+    padding: 5px 20px;
+    border: 1px dashed;
+}
+
+.top {
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 30px;
+    color: #644a39;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.job-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b9325;
+}
+
+.green {
+    color: #6dc340;
+    font-size: 12px;
+}
+
+.summary {
+    font-size: 12px;
+}
+
+
+/* Middle Part */
+.middle {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+
+.left-container {
+    margin-right: 5px;
+}
+
+.right-container {
+    padding: 0 10px 5px 10px;
+    background: whitesmoke;
+    height: max-content;
+}
+
+.more {
+    margin: 5px 0;
+}
+.main-title {
+    font-family: 'Oswald', sans-serif;
+    color: #644a39;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 2px solid #644a39;
+    margin-bottom: 5px;
+}
+
+.description {
+    margin-top: 3px;
+}
+
+/* Right part */
+
+.second-title {
+    color: #6eac47;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.third-title {
+    color: #644a39;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.backend, .front-end, .testing {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.backend, .testing {
+    margin-top: 10px;
+}
+
+.skill-container {
+    margin-top: 10px;
+}
+
+.list {
+}
+
+.underline {
+    border-bottom: 1px dashed #644a3957;
+    font-weight: 600;
+}
+
+.list span {
+    display: inline-block;
+    border-bottom: 1px dashed #644a3957;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+
+.side-project-header {
+    margin-top: 10px;
+}
+
+.experience-location {
+    margin-top: 5px;
+}
+
+.pin {
+    margin-left: 5px;
+}
+
+i {
+    color: #644a39;
+}
+
+li {
+    margin-top: 2px;
+}
+.duration {
+    font-size: 10px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.side-project-content {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
