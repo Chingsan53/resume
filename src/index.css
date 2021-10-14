@@ -12,7 +12,7 @@ html, body {
     height: 297mm;
     width: 210mm;
     padding: 5px 20px;
-    border: 1px dashed;
+    /*border: 1px dashed;*/
 }
 
 .top {
@@ -94,7 +94,7 @@ html, body {
 
 .backend, .front-end, .testing {
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .backend, .testing {
@@ -122,7 +122,7 @@ html, body {
 
 
 .side-project-header {
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 .experience-location {
@@ -140,10 +140,15 @@ i {
 li {
     margin-top: 2px;
 }
-.duration {
+.metadata {
     font-size: 10px;
     margin-top: 2px;
     margin-left: 5px;
+}
+
+.brown {
+    color: #644a39;
+    font-weight: 500;
 }
 
 .side-project-content {
