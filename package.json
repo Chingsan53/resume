@@ -1,11 +1,26 @@
 {
-  "name": "resume-template",
+  "name": "chings-resume",
   "version": "1.0.0",
-  "description": "",
+  "description": "resume for summer internship",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "browser-sync start --server --startPath ./index.html --files '*.html,*.css,*.js'",
+    "start": "npm-run-all --parallel"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Chingsan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chhaymenghong/resume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chhaymenghong/resume/issues"
+  },
+  "homepage": "https://github.com/chhaymenghong/resume#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0"
+  }
 }
